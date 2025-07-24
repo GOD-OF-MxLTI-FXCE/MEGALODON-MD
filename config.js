@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~1VxkhaIS#NO77Zs3Mfogj6rIqKX8JQ8EyVNPyU5Vmdu98hd7yEgo",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~7UcmRAKY#J4ypz_d8SsONnfmHaOUZXtsbhNxE6BJZFeVLpxPWU-g",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -26,13 +26,13 @@ MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/2ozipw.
 // add custom menu and mention reply image url
 PREFIX: getConfig("PREFIX") || ".", 
 // add your prifix for bot   
-OWNER_NAME: getConfig("OWNER_NAME") || "𝐃      𝐀      𝐑      𝐊      𝐒      𝐄      𝐈      𝐃",
+OWNER_NAME: getConfig("OWNER_NAME") || "𝗠𝗿᭄𝙺eutly🌀』",
 // add bot owner name
 CHATBOT: getConfig("CHATBOT") || "on", 
 //chatbot on/off
 BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",
+STICKER_NAME: process.env.STICKER_NAME || "𝗠𝗿᭄𝙺eutly🌀』",
     
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -41,7 +41,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50932818924",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "2250788145722",
 // add your bot owner number
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
