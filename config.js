@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~1VxkhaIS#NO77Zs3Mfogj6rIqKX8JQ8EyVNPyU5Vmdu98hd7yEgo",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~HEN1lJyL#UqWTc1FOOzMA9JhT9VHTiRU1WrA21ehd1CLbJ59OdhU",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -50,14 +50,14 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words 
 ANTI_BOT: process.env.ANTI_BOT || "true",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
-ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
-ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
-ANTILINK_KICK: process.env.ANTILINK_KICK || "false",
-ANTILINK: process.env.ANTILINK || "false",
+ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
+ANTILINK_WARN: process.env.ANTILINK_WARN || "true",
+ANTILINK_KICK: process.env.ANTILINK_KICK || "true",
+ANTILINK: process.env.ANTILINK || "true",
 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
