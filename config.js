@@ -24,7 +24,7 @@ ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/2ozipw.jpg" ,
 // add custom menu and mention reply image url
-PREFIX: getConfig("PREFIX") || "$", 
+PREFIX: getConfig("PREFIX") || "#", 
 // add your prifix for bot   
 OWNER_NAME: getConfig("OWNER_NAME") || "𝐃      𝐀      𝐑      𝐊      𝐒      𝐄      𝐈      𝐃",
 // add bot owner name
